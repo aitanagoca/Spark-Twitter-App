@@ -26,7 +26,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 4. Mvn: mvn package
 
-5. Terminal (from the lab2 folder): jar tvf target/lab1-1.0-SNAPSHOT.jar
+5. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
 6. Mvn: mvn compile
 
