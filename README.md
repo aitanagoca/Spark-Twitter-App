@@ -32,7 +32,13 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 7. Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
+
+
 -> Example: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar es "/Users/aitanagonzalezcardenas/large-scale-distributed-systems/LAB2_LSDS/lsds2022.lab2/_output-folder_TLFA" "/Users/aitanagonzalezcardenas/large-scale-distributed-systems/LAB2_LSDS/lsds2022.lab2/TwitterEurovision2018.tar"
+
+### (PART 3) Implement the Twitter filter using Spark EMS
+
+spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.u111792/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ## Benchmark
 
@@ -63,14 +69,14 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English: 86172 ms
 
     Jordi
-        Català:  ms
-        Español:  ms
-        English:  ms
+        Català: 38321 ms
+        Español: 38824 ms
+        English: 38734 ms
 
     Arnau
-        Català:  403846 ms
-        Español:  431285 ms
-        English:  439621 ms
+        Català:  ms
+        Español: ms
+        English: ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
