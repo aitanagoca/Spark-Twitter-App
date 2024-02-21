@@ -6,7 +6,10 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+
+import java.util.Arrays;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 /**
  * Represents an extended simplified tweet.
@@ -114,7 +117,7 @@ public class ExtendedSimplifiedTweet implements Serializable {
     *
     * @return the text content of the tweet
     */
-    public String get_text(){
+    public String getText(){
         return this.text;
     }
 
@@ -132,7 +135,7 @@ public class ExtendedSimplifiedTweet implements Serializable {
      *
      * @return true if the tweet has been retweeted, false otherwise
      */
-    public boolean is_retweeted(){
+    public boolean isTweetRetweeted(){
       return this.isRetweeted;
     }
   
@@ -141,7 +144,7 @@ public class ExtendedSimplifiedTweet implements Serializable {
      *
      * @return the user ID of the retweeted tweet, or null if not been retweeted
      */
-    public Long get_retweetUserId(){
+    public Long getRetweetUserId(){
         return this.retweetedUserId;
     }
 

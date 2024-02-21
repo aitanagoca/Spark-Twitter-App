@@ -1,3 +1,6 @@
-edu/upf/model/SimplifiedTweet.class
 edu/upf/TwitterLanguageFilterApp.class
 spark/WordCount.class
+edu/upf/model/ExtendedSimplifiedTweet.class
+edu/upf/model/BiGram.class
+edu/upf/model/SimplifiedTweet.class
+spark/BiGramsApp.class
