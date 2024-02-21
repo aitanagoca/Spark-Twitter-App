@@ -34,9 +34,11 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### (PART 3) Implement the Twitter filter using Spark EMR
 
-(WHEN ADDING STEP IN CLUSTER)
+(!! Make sure that you have uploaded the input file and the jar on the specified folders - given in the statement - of the S3, and that you have created the corrected output folder for the outputs!!)
 
-spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+1. Create cluster (follow guide)
+
+2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 4) Most popular bi-grams in a given language
 
