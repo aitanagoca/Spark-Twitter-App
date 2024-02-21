@@ -36,7 +36,7 @@ public class TwitterLanguageFilterApp {
         // Load input
         JavaRDD<String> sentences = sparkContext.textFile(inputFile);
 
-        // Map each input sentence to a SimplifiedTweet object and filter out invalid tweets
+        // Map each input sentence to a SimplifiedTweet object and filter out invalid tweets (taking into account the language)
         JavaRDD<Optional<SimplifiedTweet>> tweets = sentences
             .map(tweet -> SimplifiedTweet.fromJson(tweet)) 
             .filter(tweet -> tweet.isPresent())
