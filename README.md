@@ -24,13 +24,13 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 3. Mvn: mvn validate
 
-4. Mvn: mvn package
+4. Mvn: mvn compile
 
-5. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+5. Mvn: mvn package
 
-6. Mvn: mvn compile
+6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-7. Mvn: spark-submit --class spark.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+8. Mvn: spark-submit --class spark.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 3) Implement the Twitter filter using Spark EMR
 
@@ -48,13 +48,29 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 3. Mvn: mvn validate
 
-4. Mvn: mvn package
+4. Mvn: mvn compile
 
-5. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+5. Mvn: mvn package
 
-6. Mvn: mvn compile
+6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
 7. Mvn: spark-submit --class edu.upf.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+
+### (PART 5) Most Retweeted Tweets for Most Retweeted Users
+
+1. Terminal: brew install openjdk@11 (only the first time!!)
+
+2. Mvn: mvn clean
+
+3. Mvn: mvn validate
+
+4. Mvn: mvn compile
+
+5. Mvn: mvn package
+
+6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+
+7. Mvn: spark-submit --class edu.upf.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
 ## Benchmark
 
@@ -96,7 +112,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### Part 3
 
-#### Execution times (local):
+#### Execution times (EMR):
 
     Aitana
         Català:  ms
@@ -148,6 +164,57 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         Català:  ms
         Español: ms
         English: ms
+
+#### Execution times (EMR):
+
+    Aitana
+        Català:  ms
+        Español:  ms
+        English:  ms
+
+    Jordi
+        Català:  ms
+        Español:  ms
+        English:  ms
+
+    Arnau
+        Català:  ms
+        Español: ms
+        English: ms
+
+### Part 5
+
+#### Number of processed tweets
+
+    Aitana: 1217471 tweets
+    
+    Jordi:  tweets
+
+    Arnau:  tweets
+
+#### Total number of most retweeted tweets:
+
+    Aitana: 10 tweets (1 per most retweeted user)
+    
+    Jordi:  tweets (1 per most retweeted user)
+
+    Arnau:  tweets (1 per most retweeted user)
+
+#### Execution times (local):
+
+    Aitana: 78945 ms
+
+    Jordi:  ms
+
+    Arnau:  ms
+
+#### Execution times (EMR):
+
+    Aitana:  ms
+
+    Jordi:  ms
+
+    Arnau:  ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
