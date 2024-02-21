@@ -42,8 +42,6 @@ spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.
 
 ## Benchmark
 
-### Part 2
-
 #### Number of output tweets:
 
     Aitana
@@ -52,16 +50,18 @@ spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.
         English: 446601 tweets
     
     Jordi
-        Català:  4583 tweets
-        Español:  509433 tweets
+        Català: 4583 tweets
+        Español: 509433 tweets
         English: 446601 tweets
 
     Arnau
-        Català:  4583 tweets
-        Español:  509433 tweets
+        Català: 4583 tweets
+        Español: 509433 tweets
         English: 446601 tweets
 
-#### Execution times:
+### Part 2
+
+#### Execution times (local):
 
     Aitana
         Català: 72095 ms
@@ -72,6 +72,42 @@ spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.
         Català: 38321 ms
         Español: 38824 ms
         English: 38734 ms
+
+    Arnau
+        Català:  ms
+        Español: ms
+        English: ms
+
+### Part 3
+
+#### Number of bigrams:
+
+    Aitana
+        Català: 19408 bigrams
+        Español: 586992 bigrams
+        English: 970005 bigrams
+    
+    Jordi
+        Català: bigrams
+        Español: bigrams
+        English: bigrams
+
+    Arnau
+        Català: bigrams
+        Español: bigrams
+        English: bigrams
+
+#### Execution times (local):
+
+    Aitana
+        Català: 72150 ms
+        Español: 88778 ms
+        English: 104272 ms
+
+    Jordi
+        Català:  ms
+        Español:  ms
+        English:  ms
 
     Arnau
         Català:  ms
