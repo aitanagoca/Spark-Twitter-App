@@ -30,7 +30,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 6. Mvn: mvn compile
 
-7. Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+7. Mvn: spark-submit --class spark.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 3) Implement the Twitter filter using Spark EMR
 
