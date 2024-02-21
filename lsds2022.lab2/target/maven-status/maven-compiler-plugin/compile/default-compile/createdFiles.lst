@@ -2,5 +2,7 @@ edu/upf/TwitterLanguageFilterApp.class
 spark/WordCount.class
 edu/upf/model/ExtendedSimplifiedTweet.class
 edu/upf/model/BiGram.class
+spark/MostRetweetedApp.class
 edu/upf/model/SimplifiedTweet.class
 spark/BiGramsApp.class
+spark/MostRetweetedApp$TupleComparator.class

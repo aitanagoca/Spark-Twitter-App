@@ -1,10 +1,11 @@
 package edu.upf.model;
 
+import java.util.Optional;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import java.util.Optional;
 
 /**
  * The SimplifiedTweet class represents a simplified version of a tweet.

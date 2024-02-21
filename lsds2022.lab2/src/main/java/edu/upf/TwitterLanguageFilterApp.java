@@ -1,16 +1,16 @@
 package edu.upf;
 
-import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.SparkConf;
-
-import edu.upf.model.SimplifiedTweet;
-
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Optional;
 import java.util.Arrays;
 import java.util.List;
+
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.SparkConf;
+
+import edu.upf.model.SimplifiedTweet;
 
 /**
  * The TwitterLanguageFilterApp class is the entry point for the Twitter language filtering application.

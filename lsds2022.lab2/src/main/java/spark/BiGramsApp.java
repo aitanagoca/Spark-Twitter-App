@@ -1,13 +1,5 @@
 package spark;
 
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
-
-import edu.upf.model.BiGram;
-import edu.upf.model.ExtendedSimplifiedTweet;
-
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -16,6 +8,14 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import scala.Tuple2;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.JavaSparkContext;
+
+import edu.upf.model.BiGram;
+import edu.upf.model.ExtendedSimplifiedTweet;
 
 public class BiGramsApp {
     public static void main( String[] args ) throws Exception {

@@ -7,9 +7,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import java.util.Arrays;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * Represents an extended simplified tweet.
@@ -130,6 +128,33 @@ public class ExtendedSimplifiedTweet implements Serializable {
         return this.language;
     }
 
+     /**
+    * Returns the user ID of the tweet.
+    *
+    * @return the user ID of the tweet
+    */
+    public String getUsername(){
+        return this.userName;
+    }
+
+    /**
+    * Returns the user name of the tweet.
+    *
+    * @return the user name of the tweet
+    */
+    public Long getUserID(){
+        return this.userId;
+    }
+
+    /**
+    * Returns the ID of the tweet.
+    *
+    * @return the ID of the tweet
+    */
+    public Long getTweetID(){
+        return this.tweetId;
+    }
+
     /**
      * Returns if the tweet has been retweeted or not.
      *
@@ -146,6 +171,24 @@ public class ExtendedSimplifiedTweet implements Serializable {
      */
     public Long getRetweetUserId(){
         return this.retweetedUserId;
+    }
+
+    /**
+     * Returns the tweet ID of the retweeted tweet (if retweeted).
+     *
+     * @return the tweet ID of the retweeted tweet, or null if not been retweeted
+     */
+    public Long getRetweetTweetId(){
+        return this.retweetedTweetId;
+    }
+
+     /**
+     * Returns the tweet ID of the retweeted tweet (if retweeted).
+     *
+     * @return the tweet ID of the retweeted tweet, or null if not been retweeted
+     */
+    public Long getTimestamp(){
+        return this.timestampMs;
     }
 
     /**
