@@ -12,11 +12,11 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ## (For group mates) - How to execute
 
-### (PART 2) Implement the Twitter filter using Spark
-
 (!! Make sure that you have the tweets tar file downloaded - you can get it from the location given in the statement - and it is in the lab2 folder !!)
 
 -> .tar source - public s3 path: s3://lsds2022/twitter-eurovision-2018.tar
+
+### (PART 2) Implement the Twitter filter using Spark
 
 1. Terminal: brew install openjdk@11 (only the first time!!)
 
@@ -32,13 +32,25 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 7. Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
+### (PART 3) Implement the Twitter filter using Spark EMR
 
+spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
--> Example: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar es "/Users/aitanagonzalezcardenas/large-scale-distributed-systems/LAB2_LSDS/lsds2022.lab2/_output-folder_TLFA" "/Users/aitanagonzalezcardenas/large-scale-distributed-systems/LAB2_LSDS/lsds2022.lab2/TwitterEurovision2018.tar"
+### (PART 4) Most popular bi-grams in a given language
 
-### (PART 3) Implement the Twitter filter using Spark EMS
+1. Terminal: brew install openjdk@11 (only the first time!!)
 
-spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.u111792/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+2. Mvn: mvn clean
+
+3. Mvn: mvn validate
+
+4. Mvn: mvn package
+
+5. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+
+6. Mvn: mvn compile
+
+7. Mvn: spark-submit --class edu.upf.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ## Benchmark
 
@@ -79,6 +91,25 @@ spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.
         English: ms
 
 ### Part 3
+
+#### Execution times (local):
+
+    Aitana
+        Català:  ms
+        Español:  ms
+        English:  ms
+
+    Jordi
+        Català:  ms
+        Español:  ms
+        English:  ms
+
+    Arnau
+        Català:  ms
+        Español: ms
+        English: ms
+
+### Part 4
 
 #### Number of bigrams:
 
