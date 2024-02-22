@@ -124,7 +124,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### Part 3
 
-#### Execution times (EMR):
+#### Elapsed times (EMR):
 
     Aitana
         Català:  ms
@@ -177,7 +177,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         Español: ms
         English: ms
 
-#### Execution times (EMR):
+#### Elapsed times (EMR):
 
     Aitana
         Català:  ms
@@ -220,7 +220,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Arnau:  ms
 
-#### Execution times (EMR):
+#### Elapsed times (EMR):
 
     Aitana:  ms
 
