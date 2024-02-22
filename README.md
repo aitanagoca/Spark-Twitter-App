@@ -106,9 +106,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English: 38734 ms
 
     Arnau
-        Català:  ms
-        Español: ms
-        English: ms
+        Català: 83515 ms
+        Español: 509433 ms
+        English: 446601 ms
 
 ### Part 3
 
