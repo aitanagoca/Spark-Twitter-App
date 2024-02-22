@@ -56,6 +56,12 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 7. Mvn: spark-submit --class edu.upf.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
+(!! You have to execute it too in EMR !!)
+
+1. Create cluster (follow guide)
+
+2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.BiGramsApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+
 ### (PART 5) Most Retweeted Tweets for Most Retweeted Users
 
 1. Terminal: brew install openjdk@11 (only the first time!!)
@@ -71,6 +77,12 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
 7. Mvn: spark-submit --class edu.upf.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
+
+(!! You have to execute it too in EMR !!)
+
+1. Create cluster (follow guide)
+
+2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.MostRetweetedApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
 ## Benchmark
 
