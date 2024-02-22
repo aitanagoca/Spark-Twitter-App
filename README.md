@@ -225,5 +225,5 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         Memory RAM: 32 GB 4800 MHz DDR5
 
     Arnau
-        CPU: AMD Ryzen 7 5700u 4.3 GHz
+        CPU: AMD Ryzen 7 5800H with Radeon Graphics 3.20 GHz
         Memory RAM: 16 GB 3200 MHz DDR4
