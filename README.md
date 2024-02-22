@@ -54,7 +54,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-7. Mvn: spark-submit --class edu.upf.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+7. Mvn: spark-submit --class spark.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 (!! You have to execute it too in EMR !!)
 
@@ -76,7 +76,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-7. Mvn: spark-submit --class edu.upf.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
+7. Mvn: spark-submit --class spark.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
 (!! You have to execute it too in EMR !!)
 
