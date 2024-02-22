@@ -30,7 +30,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-8. Mvn: spark-submit --class spark.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+8. Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 3) Implement the Twitter filter using Spark EMR
 
@@ -106,9 +106,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English: 38734 ms
 
     Arnau
-        Català:  ms
-        Español: ms
-        English: ms
+        Català: 83515 ms
+        Español: 509433 ms
+        English: 446601 ms
 
 ### Part 3
 
@@ -225,5 +225,5 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         Memory RAM: 32 GB 4800 MHz DDR5
 
     Arnau
-        CPU: AMD Ryzen 7 5700u 4.3 GHz
+        CPU: AMD Ryzen 7 5800H with Radeon Graphics 3.20 GHz
         Memory RAM: 16 GB 3200 MHz DDR4
