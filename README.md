@@ -132,9 +132,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English:  ms
 
     Jordi
-        Català:  ms
-        Español:  ms
-        English:  ms
+        Català: 328000 ms
+        Español: 330000 ms
+        English: 344000 ms
 
     Arnau
         Català:  ms
@@ -185,9 +185,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English:  ms
 
     Jordi
-        Català:  ms
-        Español:  ms
-        English:  ms
+        Català: 344000 ms
+        Español: 382000 ms
+        English: 362000 ms
 
     Arnau
         Català:  ms
@@ -224,7 +224,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Aitana:  ms
 
-    Jordi:  ms
+    Jordi: 475000 ms
 
     Arnau:  ms
 
