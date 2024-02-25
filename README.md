@@ -156,9 +156,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English: 970005 bigrams
 
     Arnau
-        Català: bigrams
-        Español: bigrams
-        English: bigrams
+        Català: 19408 bigrams
+        Español: 586992 bigrams
+        English: 970005 bigrams
 
 #### Execution times (local):
 
@@ -173,9 +173,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         English: 46084 ms
 
     Arnau
-        Català:  ms
-        Español: ms
-        English: ms
+        Català: 65800 ms
+        Español: 97987 ms
+        English: 93769 ms
 
 #### Elapsed times (EMR):
 
@@ -202,7 +202,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
     
     Jordi: 1217471 tweets
 
-    Arnau:  tweets
+    Arnau:  1217471 tweets
 
 #### Total number of most retweeted tweets:
 
@@ -210,7 +210,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
     
     Jordi: 10 tweets (1 per most retweeted user)
 
-    Arnau:  tweets (1 per most retweeted user)
+    Arnau: 10 tweets (1 per most retweeted user)
 
 #### Execution times (local):
 
@@ -218,7 +218,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Jordi: 41670 ms
 
-    Arnau:  ms
+    Arnau:  88986 ms
 
 #### Elapsed times (EMR):
 
