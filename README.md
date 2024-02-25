@@ -218,7 +218,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Jordi: 41670 ms
 
-    Arnau:  ms
+    Arnau:  88986 ms
 
 #### Elapsed times (EMR):
 
