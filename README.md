@@ -236,6 +236,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
     Aitana
         CPU: 1.7 GHz Intel Core i7 of 4 cores
         Memory RAM: 16 GB 2133 MHz LPDDR3
+    
     Jordi
         CPU: AMD Ryzen 7 6800H with Radeon Graphics 3.20 GHz
         Memory RAM: 32 GB 4800 MHz DDR5
