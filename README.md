@@ -1,6 +1,6 @@
 # Spark-Twitter-App
 
-(For better viewing, you can visit:
+(For better viewing, you can visit: https://github.com/aitanagoca/Spark-Twitter-App)
 
 ## Group Information 
 
