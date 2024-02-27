@@ -108,38 +108,38 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Execution times (local):
 
     Aitana
-        Català: 72095 ms
-        Español: 89300 ms
-        English: 86172 ms
+        Català: 72.095 ms
+        Español: 89.300 ms
+        English: 86.172 ms
 
     Jordi
-        Català: 38321 ms
-        Español: 38824 ms
-        English: 38734 ms
+        Català: 38.321 ms
+        Español: 38.824 ms
+        English: 38.734 ms
 
     Arnau
-        Català: 83515 ms
-        Español: 509433 ms
-        English: 446601 ms
+        Català: 83.515 ms
+        Español: 90.354 ms
+        English: 87.951 ms
 
 ### Part 3
 
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 654000 ms
-        Español: 554000 ms
-        English: 642000 ms
+        Català: 654.000 ms
+        Español: 554.000 ms
+        English: 642.000 ms
 
     Jordi
-        Català: 328000 ms
-        Español: 330000 ms
-        English: 344000 ms
+        Català: 328.000 ms
+        Español: 330.000 ms
+        English: 344.000 ms
 
     Arnau
-        Català:  ms
-        Español: ms
-        English: ms
+        Català:  557.000 ms
+        Español: 612.000 ms
+        English: 627.000 ms
 
 ### Part 4
 
@@ -163,36 +163,36 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Execution times (local):
 
     Aitana
-        Català: 72150 ms
-        Español: 88778 ms
-        English: 104272 ms
+        Català: 72.150 ms
+        Español: 88.778 ms
+        English: 104.272 ms
 
     Jordi
-        Català: 31127 ms
-        Español: 45405 ms
-        English: 46084 ms
+        Català: 31.127 ms
+        Español: 45.405 ms
+        English: 46.084 ms
 
     Arnau
-        Català: 65800 ms
-        Español: 97987 ms
-        English: 93769 ms
+        Català: 65.800 ms
+        Español: 97.987 ms
+        English: 93.769 ms
 
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 614000 ms
-        Español: 584000 ms
-        English: 586000 ms
+        Català: 614.000 ms
+        Español: 584.000 ms
+        English: 586.000 ms
 
     Jordi
-        Català: 344000 ms
-        Español: 382000 ms
-        English: 362000 ms
+        Català: 344.000 ms
+        Español: 382.000 ms
+        English: 362.000 ms
 
     Arnau
         Català: 622.000 ms
-        Español: 636.000 ms
-        English: ms
+        Español: 672.000 ms
+        English: 684.000 ms
 
 ### Part 5
 
@@ -214,19 +214,19 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 #### Execution times (local):
 
-    Aitana: 78945 ms
+    Aitana: 78.945 ms
 
-    Jordi: 41670 ms
+    Jordi: 41.670 ms
 
-    Arnau:  88986 ms
+    Arnau:  88.986 ms
 
 #### Elapsed times (EMR):
 
-    Aitana: 764000 ms
+    Aitana: 764.000 ms
 
-    Jordi: 475000 ms
+    Jordi: 475.000 ms
 
-    Arnau:  ms
+    Arnau: 874.000 ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
