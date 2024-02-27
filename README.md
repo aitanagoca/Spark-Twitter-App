@@ -84,6 +84,10 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.MostRetweetedApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
+### (Example EMR - cluster + steps)
+
+<img width="1349" alt="Captura de pantalla 2024-02-27 a les 23 10 24" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/ab919aac-808a-49bc-9fcc-986a64ed6c86">
+
 ## Benchmark
 
 #### Number of output tweets:
@@ -108,38 +112,38 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Execution times (local):
 
     Aitana
-        Català: 72.095 ms
-        Español: 89.300 ms
-        English: 86.172 ms
+        Català: 72095 ms
+        Español: 89300 ms
+        English: 86172 ms
 
     Jordi
-        Català: 38.321 ms
-        Español: 38.824 ms
-        English: 38.734 ms
+        Català: 38321 ms
+        Español: 38824 ms
+        English: 38734 ms
 
     Arnau
-        Català: 83.515 ms
-        Español: 90.354 ms
-        English: 87.951 ms
+        Català: 83515 ms
+        Español: 90354 ms
+        English: 87951 ms
 
 ### Part 3
 
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 654.000 ms
-        Español: 554.000 ms
-        English: 642.000 ms
+        Català: 654000 ms
+        Español: 554000 ms
+        English: 642000 ms
 
     Jordi
-        Català: 328.000 ms
-        Español: 330.000 ms
-        English: 344.000 ms
+        Català: 328000 ms
+        Español: 330000 ms
+        English: 344000 ms
 
     Arnau
-        Català:  557.000 ms
+        Català:  557000 ms
         Español: 612.000 ms
-        English: 627.000 ms
+        English: 627000 ms
 
 ### Part 4
 
@@ -163,36 +167,36 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Execution times (local):
 
     Aitana
-        Català: 72.150 ms
-        Español: 88.778 ms
-        English: 104.272 ms
+        Català: 72150 ms
+        Español: 88778 ms
+        English: 104272 ms
 
     Jordi
-        Català: 31.127 ms
-        Español: 45.405 ms
-        English: 46.084 ms
+        Català: 31127 ms
+        Español: 45405 ms
+        English: 46084 ms
 
     Arnau
-        Català: 65.800 ms
-        Español: 97.987 ms
-        English: 93.769 ms
+        Català: 65800 ms
+        Español: 97987 ms
+        English: 93769 ms
 
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 614.000 ms
-        Español: 584.000 ms
-        English: 586.000 ms
+        Català: 614000 ms
+        Español: 584000 ms
+        English: 586000 ms
 
     Jordi
-        Català: 344.000 ms
-        Español: 382.000 ms
-        English: 362.000 ms
+        Català: 344000 ms
+        Español: 382000 ms
+        English: 362000 ms
 
     Arnau
-        Català: 622.000 ms
-        Español: 672.000 ms
-        English: 684.000 ms
+        Català: 622000 ms
+        Español: 672000 ms
+        English: 684000 ms
 
 ### Part 5
 
@@ -214,19 +218,19 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 #### Execution times (local):
 
-    Aitana: 78.945 ms
+    Aitana: 78945 ms
 
-    Jordi: 41.670 ms
+    Jordi: 41670 ms
 
-    Arnau:  88.986 ms
+    Arnau:  88986 ms
 
 #### Elapsed times (EMR):
 
-    Aitana: 764.000 ms
+    Aitana: 764000 ms
 
-    Jordi: 475.000 ms
+    Jordi: 475000 ms
 
-    Arnau: 874.000 ms
+    Arnau: 874000 ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
@@ -239,3 +243,92 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
     Arnau
         CPU: AMD Ryzen 7 5800H with Radeon Graphics 3.20 GHz
         Memory RAM: 16 GB 3200 MHz DDR4
+
+### Observations
+
+- Generally, EMR (Elastic MapReduce) takes longer to execute compared to local execution for the given tasks.
+
+- The difference in execution times between local and EMR varies depending on the task and the dataset.
+
+- EMR tends to scale better with larger datasets, but it incurs higher overhead for smaller tasks due to the setup and teardown time of the EMR cluster.
+
+- Hardware configurations also play a significant role in the execution times, particularly CPU speed and memory capacity.
+
+Overall, the choice between local execution and EMR depends on factors such as dataset size, computational resources available, and the trade-off between setup overhead and performance gains.
+
+## Outputs
+
+The different outputs ar stored in s3://lsds2024.lab2.output.uxxxxxx/output/benchmark.
+
+<img width="1097" alt="Captura de pantalla 2024-02-27 a les 23 15 14" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/40a9c9fd-6f8d-4766-ac5c-31260d86382b">
+
+As we can see, there are different folders depending on the app used:
+
+- _output-folder_TLFA_<language>: stores the output for Twitter Filter Language App (separated by languages).
+
+        Example (extract from _output-folder_TLFA_EN):
+
+<img width="1027" alt="Captura de pantalla 2024-02-27 a les 23 19 38" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/24d21812-d2c9-4af2-a011-0c2672e3ee89">
+
+-  _output-folder_BA_<language>: stores the output for BiGrams App (separated by languages).
+
+        * Top 10 entries (EN):
+            <of, the>: 21281
+            <in, the>: 13671
+            <this, is>: 13338
+            <for, the>: 11443
+            <the, uk>: 9884
+            <rt, @eurovision:>: 9747
+            <rt, @bbceurovision:>: 9558
+            <vote, for>: 9196
+            <in, #eurovision>: 8513
+            <song, contest>: 8393
+
+        * Top 10 entries (ES):
+            <#eurovision, #finaleurovision>: 29256
+            <de, la>: 24889
+            <en, el>: 21524
+            <en, #eurovision>: 16829
+            <el, que>: 16564
+            <lo, que>: 16549
+            <que, no>: 15613
+            <y, amaia>: 13458
+            <en, la>: 13138
+            <el, año>: 12649
+
+        * Top 10 entries (CA):
+            <alexander, rybak>: 404
+            <es, el>: 369
+            <de, noruega.>: 347
+            <-, 2018.>: 346
+            <el, jordi>: 346
+            <2009, ->: 346
+            <#eurovision, https://t.co/b091qrmq5l>: 346
+            <jordi, hurtado>: 346
+            <hurtado, de>: 346
+            <2018., alexander>: 346
+
+-  _output-folder_MRA_<language>: stores the output for Most Retweeted App.
+
+         Most retweeted tweet for the 10 most retweeted users:
+            1 - {'tweetID': 995445778528292864, 'text': RT @ManelNMusic: Enhorabuena @NettaBarzilai por tu merecida victoria! 
+            Gran talento, carisma arrollador y una canción que te engancha a la…, 'userId': 437025093, 'userName:' Belen Hernandez,                     'language': es, 'timestampMs': 1526167742746}
+
+            2 - {'tweetID': 995441953625067522, 'text': RT @bbceurovision: The moment the Israeli delegation found out they had won                     Eurovision 2018 🎉🐔🎈👏👏👏 Congratulations @NettaBarzilai #Eurovisi…, 'userId': 24679473, 'userName:' Charlotte, 'language':                en, 'timestampMs': 1526166830818}
+   
+            3 - {'tweetID': 995438274574520320, 'text': RT @PaquitaSalas: Lo que yo os diga: en un primer plano, los pelos como escarpias.              Pero por favor os lo pido, dejad de quemarme el WhatsApp…, 'userId': 739812492310896640, 'userName:' cris 👅, 'language': es,               'timestampMs': 1526165953664}
+   
+            4 - {'tweetID': 995447753747595265, 'text': RT @Eurovision: We have a message for you from the winner of #Eurovision 2018!                  Congratulations @NettaBarzilai! #ESC2018 #AllAboard https://…, 'userId': 15584187, 'userName:' martu { -56 -190} 🇸🇪💙,                      'language': en, 'timestampMs': 1526168213675}
+   
+            5 - {'tweetID': 995392980596002817, 'text': RT @Uznare: eurovision rules https://t.co/I8cG3D5tCh, 'userId': 29056256,                       'userName:' JoJohansen, 'language': en, 'timestampMs': 1526155154738}
+   
+            6 - {'tweetID': 995439844410249216, 'text': RT @LVPibai: Rodolfo Chikilicuatre, un actor disfrazado con una guitarra de                     plástico quedó siete puestos por encima que la ganadora de un c…, 'userId': 2754746065, 'userName:' Todo sobre SLO-CoD,                     'language': es, 'timestampMs': 1526166327942}
+   
+            7 - {'tweetID': 995438238520299520, 'text': RT @pewdiepie: My chicken is not your goddamn prom dress #Eurovision, 'userId':                 39538010, 'userName:' Johannes Perterer, 'language': en, 'timestampMs': 1526165945068}
+   
+            8 - {'tweetID': 995438291909513217, 'text': RT @auronplay: España con 0 de vida por favor que alguien nos de un botiquín o unas             vendas por favor jaja #Eurovision, 'userId': 1501434991, 'userName:' jdptrdz, 'language': es, 'timestampMs': 1526165957797}
+   
+            9 - {'tweetID': 995356844947398661, 'text': RT @NetflixES: Ella está al mando. Con @PaquitaSalas nada malo puede pasar, ¿no?                #Eurovision https://t.co/5HeUDCqxX6, 'userId': 3143260474, 'userName:' Lula, 'language': es, 'timestampMs': 1526146539328}
+   
+            10 - {'tweetID': 995438907838947329, 'text': RT @elmundotoday: El patrocinio de Turismo de Portugal, que ha costado 60 millones             de euros, ha conseguido convencer a un señor de Ucrania…, 'userId': 38381308, 'userName:' Adri Laborda, 'language': es,                     'timestampMs': 1526166104646}
+
