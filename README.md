@@ -273,6 +273,7 @@ As we can see, there are different folders depending on the app used:
 -  _output-folder_BA_<language>: stores the output for BiGrams App (separated by languages).
 
         * Top 10 entries (EN):
+   
             <of, the>: 21281
             <in, the>: 13671
             <this, is>: 13338
@@ -285,6 +286,7 @@ As we can see, there are different folders depending on the app used:
             <song, contest>: 8393
 
         * Top 10 entries (ES):
+   
             <#eurovision, #finaleurovision>: 29256
             <de, la>: 24889
             <en, el>: 21524
@@ -297,6 +299,7 @@ As we can see, there are different folders depending on the app used:
             <el, año>: 12649
 
         * Top 10 entries (CA):
+   
             <alexander, rybak>: 404
             <es, el>: 369
             <de, noruega.>: 347
@@ -311,6 +314,7 @@ As we can see, there are different folders depending on the app used:
 -  _output-folder_MRA_<language>: stores the output for Most Retweeted App.
 
          Most retweeted tweet for the 10 most retweeted users:
+   
             1 - {'tweetID': 995445778528292864, 'text': RT @ManelNMusic: Enhorabuena @NettaBarzilai por tu merecida victoria! 
             Gran talento, carisma arrollador y una canción que te engancha a la…, 'userId': 437025093, 'userName:' Belen Hernandez,                     'language': es, 'timestampMs': 1526167742746}
 
