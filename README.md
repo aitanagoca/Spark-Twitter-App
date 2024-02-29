@@ -251,7 +251,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### Observations
 
-- Generally, EMR (Elastic MapReduce) takes longer to execute compared to local execution for the given tasks.
+- Generally, EMR (Elastic MapReduce) with 2 cores takes longer to execute compared to local execution for the given tasks. Note that, for EMR, the more cores we use, the faster our task will be carried out.
 
 - The difference in execution times between local and EMR varies depending on the task and the dataset.
 
