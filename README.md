@@ -316,7 +316,7 @@ As we can see, there are different folders depending on the app used:
             <hurtado, de>: 346
             <2018., alexander>: 346
 
-   📋 Note: In each language section, the most common pairs of words or tokens are shown, along with their frequencies. 
+         📋 Note: In each language section, the most common pairs of words or tokens are shown, along with their frequencies. 
 
 -  _output-folder_MRA_<language>: stores the output for Most Retweeted App.
 
