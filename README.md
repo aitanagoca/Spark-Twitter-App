@@ -273,7 +273,7 @@ As we can see, there are different folders depending on the app used:
 
         Example (extract from _output-folder_TLFA_EN):
 
-<img width="1027" alt="Captura de pantalla 2024-02-27 a les 23 19 38" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/24d21812-d2c9-4af2-a011-0c2672e3ee89">
+<img width="644" alt="Captura de pantalla 2024-02-29 a les 18 15 29" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/c7286d89-751a-491e-b1ed-569aee9a21cd">
 
 -  _output-folder_BA_<language>: stores the output for BiGrams App (separated by languages).
 
