@@ -342,3 +342,6 @@ As we can see, there are different folders depending on the app used:
    
             - {'tweetID': 995438907838947329, 'text': RT @elmundotoday: El patrocinio de Turismo de Portugal, que ha costado 60 millones de euros, ha conseguido convencer a un señor de Ucrania…, 'userId': 38381308, 'userName:' Adri Laborda, 'language': es, 'timestampMs': 1526166104646}
 
+### Observations
+- Among the top retweeted users, Spanish-language tweets are the most prevalent, followed by English. Catalan tweets don't even appear.
+- By examining the content of the most retweeted tweets, it is obvious that the Eurovision Song Contest is a prominent topic as the given dataset is about it; however, topics such as winners, performances and reactions are highlighted.
