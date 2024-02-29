@@ -133,9 +133,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Elapsed times (EMR):
 
     Aitana
-        Català:  ms
-        Español:  ms
-        English:  ms
+        Català: 362000 ms
+        Español: 322000 ms
+        English: 316000 ms
 
     Jordi
         Català: 240000 ms
@@ -186,9 +186,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Elapsed times (EMR):
 
     Aitana
-        Català:  ms
-        Español:  ms
-        English:  ms
+        Català: 344000 ms
+        Español: 388000 ms
+        English: 362000 ms
 
     Jordi
         Català: 248000 ms
@@ -232,7 +232,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Jordi: 276000 ms
 
-    Arnau:  ms
+    Arnau: 346000 ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
