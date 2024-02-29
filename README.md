@@ -86,9 +86,9 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.MostRetweetedApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
-### (Example EMR - cluster + steps)
+### (Example EMR - cluster with 2 cores + steps)
 
-<img width="1349" alt="Captura de pantalla 2024-02-27 a les 23 10 24" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/ab919aac-808a-49bc-9fcc-986a64ed6c86">
+<img width="1350" alt="Captura de pantalla 2024-02-29 a les 11 58 48" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/c0686e8a-1f75-427b-9232-4fe20660aa53">
 
 ## Benchmark
 
@@ -133,19 +133,19 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 654000 ms
-        Español: 554000 ms
-        English: 642000 ms
+        Català:  ms
+        Español:  ms
+        English:  ms
 
     Jordi
-        Català: 328000 ms
-        Español: 330000 ms
-        English: 344000 ms
+        Català: 240000 ms
+        Español: 196000 ms
+        English: 202000 ms
 
     Arnau
-        Català:  557000 ms
-        Español: 612.000 ms
-        English: 627000 ms
+        Català:   ms
+        Español:  ms
+        English:  ms
 
 ### Part 4
 
@@ -186,19 +186,19 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 #### Elapsed times (EMR):
 
     Aitana
-        Català: 614000 ms
-        Español: 584000 ms
-        English: 586000 ms
+        Català:  ms
+        Español:  ms
+        English:  ms
 
     Jordi
-        Català: 344000 ms
-        Español: 382000 ms
-        English: 362000 ms
+        Català: 248000 ms
+        Español: 282000 ms
+        English: 280000 ms
 
     Arnau
-        Català: 622000 ms
-        Español: 672000 ms
-        English: 684000 ms
+        Català:  ms
+        Español:  ms
+        English:  ms
 
 ### Part 5
 
@@ -228,11 +228,11 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 #### Elapsed times (EMR):
 
-    Aitana: 764000 ms
+    Aitana:  ms
 
-    Jordi: 475000 ms
+    Jordi: 276000 ms
 
-    Arnau: 874000 ms
+    Arnau:  ms
 
 ### Hardware (CPU - Memory RAM):
     Aitana
