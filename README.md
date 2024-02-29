@@ -132,7 +132,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### Part 3
 
-#### Elapsed times (EMR):
+#### Elapsed times (EMR -  2 cores):
 
     Aitana
         Català: 362000 ms
@@ -185,7 +185,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
         Español: 97987 ms
         English: 93769 ms
 
-#### Elapsed times (EMR):
+#### Elapsed times (EMR -  2 cores):
 
     Aitana
         Català: 344000 ms
@@ -228,7 +228,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
     Arnau:  88986 ms
 
-#### Elapsed times (EMR):
+#### Elapsed times (EMR -  2 cores):
 
     Aitana: 436000 ms
 
