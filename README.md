@@ -16,7 +16,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ⚠️ Make sure that you have the tweets tar file downloaded - you can get it from the location given in the statement - and it is in the lab2 folder !!
 
--> .tar source - public s3 path: s3://lsds2022/twitter-eurovision-2018.tar
+ - public s3 path: s3://lsds2022/twitter-eurovision-2018.tar
 
 ### (PART 2) Implement the Twitter filter using Spark
 
