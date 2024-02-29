@@ -318,24 +318,23 @@ As we can see, there are different folders depending on the app used:
 
          Most retweeted tweet for the 10 most retweeted users:
    
-            - {'tweetID': 995445778528292864, 'text': RT @ManelNMusic: Enhorabuena @NettaBarzilai por tu merecida victoria! 
-            Gran talento, carisma arrollador y una canción que te engancha a la…, 'userId': 437025093, 'userName:' Belen Hernandez,                     'language': es, 'timestampMs': 1526167742746}
+            - {'tweetID': 995445778528292864, 'text': RT @ManelNMusic: Enhorabuena @NettaBarzilai por tu merecida victoria! Gran talento, carisma arrollador y una canción que te engancha a la…, 'userId': 437025093, 'userName:' Belen Hernandez, 'language': es, 'timestampMs': 1526167742746}
 
-            - {'tweetID': 995441953625067522, 'text': RT @bbceurovision: The moment the Israeli delegation found out they had won                     Eurovision 2018 🎉🐔🎈👏👏👏 Congratulations @NettaBarzilai #Eurovisi…, 'userId': 24679473, 'userName:' Charlotte, 'language':                en, 'timestampMs': 1526166830818}
+            - {'tweetID': 995441953625067522, 'text': RT @bbceurovision: The moment the Israeli delegation found out they had won Eurovision 2018 🎉🐔🎈👏👏👏 Congratulations @NettaBarzilai #Eurovisi…, 'userId': 24679473, 'userName:' Charlotte, 'language': en, 'timestampMs': 1526166830818}
    
-            - {'tweetID': 995438274574520320, 'text': RT @PaquitaSalas: Lo que yo os diga: en un primer plano, los pelos como escarpias.              Pero por favor os lo pido, dejad de quemarme el WhatsApp…, 'userId': 739812492310896640, 'userName:' cris 👅, 'language': es,               'timestampMs': 1526165953664}
+            - {'tweetID': 995438274574520320, 'text': RT @PaquitaSalas: Lo que yo os diga: en un primer plano, los pelos como escarpias. Pero por favor os lo pido, dejad de quemarme el WhatsApp…, 'userId': 739812492310896640, 'userName:' cris 👅, 'language': es, 'timestampMs': 1526165953664}
    
-            - {'tweetID': 995447753747595265, 'text': RT @Eurovision: We have a message for you from the winner of #Eurovision 2018!                  Congratulations @NettaBarzilai! #ESC2018 #AllAboard https://…, 'userId': 15584187, 'userName:' martu { -56 -190} 🇸🇪💙,                      'language': en, 'timestampMs': 1526168213675}
+            - {'tweetID': 995447753747595265, 'text': RT @Eurovision: We have a message for you from the winner of #Eurovision 2018! Congratulations @NettaBarzilai! #ESC2018 #AllAboard https://…, 'userId': 15584187, 'userName:' martu { -56 -190} 🇸🇪💙, 'language': en, 'timestampMs': 1526168213675}
    
-            - {'tweetID': 995392980596002817, 'text': RT @Uznare: eurovision rules https://t.co/I8cG3D5tCh, 'userId': 29056256,                       'userName:' JoJohansen, 'language': en, 'timestampMs': 1526155154738}
+            - {'tweetID': 995392980596002817, 'text': RT @Uznare: eurovision rules https://t.co/I8cG3D5tCh, 'userId': 29056256, 'userName:' JoJohansen, 'language': en, 'timestampMs': 1526155154738}
    
-            - {'tweetID': 995439844410249216, 'text': RT @LVPibai: Rodolfo Chikilicuatre, un actor disfrazado con una guitarra de                     plástico quedó siete puestos por encima que la ganadora de un c…, 'userId': 2754746065, 'userName:' Todo sobre SLO-CoD,                     'language': es, 'timestampMs': 1526166327942}
+            - {'tweetID': 995439844410249216, 'text': RT @LVPibai: Rodolfo Chikilicuatre, un actor disfrazado con una guitarra de plástico quedó siete puestos por encima que la ganadora de un c…, 'userId': 2754746065, 'userName:' Todo sobre SLO-CoD, 'language': es, 'timestampMs': 1526166327942}
    
-            - {'tweetID': 995438238520299520, 'text': RT @pewdiepie: My chicken is not your goddamn prom dress #Eurovision, 'userId':                 39538010, 'userName:' Johannes Perterer, 'language': en, 'timestampMs': 1526165945068}
+            - {'tweetID': 995438238520299520, 'text': RT @pewdiepie: My chicken is not your goddamn prom dress #Eurovision, 'userId': 39538010, 'userName:' Johannes Perterer, 'language': en, 'timestampMs': 1526165945068}
    
-            - {'tweetID': 995438291909513217, 'text': RT @auronplay: España con 0 de vida por favor que alguien nos de un botiquín o unas             vendas por favor jaja #Eurovision, 'userId': 1501434991, 'userName:' jdptrdz, 'language': es, 'timestampMs': 1526165957797}
+            - {'tweetID': 995438291909513217, 'text': RT @auronplay: España con 0 de vida por favor que alguien nos de un botiquín o unas vendas por favor jaja #Eurovision, 'userId': 1501434991, 'userName:' jdptrdz, 'language': es, 'timestampMs': 1526165957797}
    
-            - {'tweetID': 995356844947398661, 'text': RT @NetflixES: Ella está al mando. Con @PaquitaSalas nada malo puede pasar, ¿no?                #Eurovision https://t.co/5HeUDCqxX6, 'userId': 3143260474, 'userName:' Lula, 'language': es, 'timestampMs': 1526146539328}
+            - {'tweetID': 995356844947398661, 'text': RT @NetflixES: Ella está al mando. Con @PaquitaSalas nada malo puede pasar, ¿no? #Eurovision https://t.co/5HeUDCqxX6, 'userId': 3143260474, 'userName:' Lula, 'language': es, 'timestampMs': 1526146539328}
    
-            - {'tweetID': 995438907838947329, 'text': RT @elmundotoday: El patrocinio de Turismo de Portugal, que ha costado 60 millones             de euros, ha conseguido convencer a un señor de Ucrania…, 'userId': 38381308, 'userName:' Adri Laborda, 'language': es,                     'timestampMs': 1526166104646}
+            - {'tweetID': 995438907838947329, 'text': RT @elmundotoday: El patrocinio de Turismo de Portugal, que ha costado 60 millones de euros, ha conseguido convencer a un señor de Ucrania…, 'userId': 38381308, 'userName:' Adri Laborda, 'language': es, 'timestampMs': 1526166104646}
 
