@@ -20,71 +20,71 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 ### (PART 2) Implement the Twitter filter using Spark
 
- Terminal: brew install openjdk@11 (only the first time!!)
+1️⃣ Terminal: brew install openjdk@11 (only the first time!!)
 
-2. Mvn: mvn clean
+2️⃣ Mvn: mvn clean
 
-3. Mvn: mvn validate
+3️⃣ Mvn: mvn validate
 
-4. Mvn: mvn compile
+4️⃣ Mvn: mvn compile
 
-5. Mvn: mvn package
+5️⃣ Mvn: mvn package
 
-6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+6️⃣ Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-8. Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+7️⃣ Mvn: spark-submit --class edu.upf.TwitterLanguageFilterApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 3) Implement the Twitter filter using Spark EMR
 
-(!! Make sure that you have uploaded the input file and the jar on the specified folders - given in the statement - of the S3, and that you have created the corrected output folder for the outputs!!)
+⚠️ Make sure that you have uploaded the input file and the jar on the specified folders - given in the statement - of the S3, and that you have created the corrected output folder for the outputs!!
 
-1. Create cluster (follow guide)
+1️⃣ Create cluster (follow guide)
 
-2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+2️⃣ (WHEN ADDING STEP IN CLUSTER): spark-submit --class edu.upf.TwitterLanguageFilterApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 4) Most popular bi-grams in a given language
 
-1. Terminal: brew install openjdk@11 (only the first time!!)
+1️⃣ Terminal: brew install openjdk@11 (only the first time!!)
 
-2. Mvn: mvn clean
+2️⃣ Mvn: mvn clean
 
-3. Mvn: mvn validate
+3️⃣ Mvn: mvn validate
 
-4. Mvn: mvn compile
+4️⃣ Mvn: mvn compile
 
-5. Mvn: mvn package
+5️⃣ Mvn: mvn package
 
-6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+6️⃣ Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-7. Mvn: spark-submit --class spark.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+7️⃣ Mvn: spark-submit --class spark.BiGramsApp target/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
-(!! You have to execute it too in EMR !!)
+⚠️ You have to execute it too in EMR !!
 
-1. Create cluster (follow guide)
+1️⃣ Create cluster (follow guide)
 
-2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.BiGramsApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
+2️⃣ (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.BiGramsApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < language > < name_outputFolder > < name_twittterTarFile >
 
 ### (PART 5) Most Retweeted Tweets for Most Retweeted Users
 
-1. Terminal: brew install openjdk@11 (only the first time!!)
+1️⃣ Terminal: brew install openjdk@11 (only the first time!!)
 
-2. Mvn: mvn clean
+2️⃣ Mvn: mvn clean
 
-3. Mvn: mvn validate
+3️⃣ Mvn: mvn validate
 
-4. Mvn: mvn compile
+4️⃣ Mvn: mvn compile
 
-5. Mvn: mvn package
+5️⃣ Mvn: mvn package
 
-6. Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
+6️⃣ Terminal (from the lab2 folder): jar tvf target/spark-test-1.0-SNAPSHOT.jar
 
-7. Mvn: spark-submit --class spark.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
+7️⃣ Mvn: spark-submit --class spark.MostRetweetedApp target/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
-(!! You have to execute it too in EMR !!)
+⚠️ You have to execute it too in EMR !!
 
-1. Create cluster (follow guide)
+1️⃣ Create cluster (follow guide)
 
-2. (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.MostRetweetedApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
+2️⃣ (WHEN ADDING STEP IN CLUSTER): spark-submit --class spark.MostRetweetedApp s3://lsds2024.lab2.output.uxxxxxx/jars/spark-test-1.0-SNAPSHOT.jar < name_outputFolder > < name_twittterTarFile >
 
 ### (Example EMR - cluster with 2 cores + steps)
 
