@@ -90,6 +90,8 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 <img width="1350" alt="Captura de pantalla 2024-02-29 a les 11 58 48" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/c0686e8a-1f75-427b-9232-4fe20660aa53">
 
+<img width="984" alt="Captura de pantalla 2024-02-29 a les 18 07 32" src="https://github.com/aitanagoca/Spark-Twitter-App/assets/92036724/1c907d5d-84ac-430e-94a5-6474456acafc">
+
 ## Benchmark
 
 #### Number of output tweets:
