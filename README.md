@@ -4,7 +4,7 @@
 
 ## Group Information 
 
-Group: (P102, grup 05)
+👥 Group: (P102, grup 05)
 
 Aitana González (U186651, Bucket: lsds2024.lab2.output.u186651)
 
