@@ -230,7 +230,7 @@ Arnau Royo (U172499, Bucket: lsds2024.lab2.output.u172499)
 
 #### Elapsed times (EMR):
 
-    Aitana:  ms
+    Aitana: 436000 ms
 
     Jordi: 276000 ms
 
